@@ -1,6 +1,7 @@
 # ecommerce_web_ui_test_automation_framework - Playwright Test Automation
 
 A comprehensive test automation project built with Playwright for end-to-end testing.
+The framework uses TypeScript and the Page Object Model pattern.
 
 ## 📋 Table of Contents
 
@@ -228,3 +229,5 @@ For questions and support:
 ---
 
 **Happy Testing!** 🎭
+
+*Mohammad Najrul Islam*
