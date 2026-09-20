@@ -1,0 +1,36 @@
+{
+  "name": "ecommerce_web_ui_test_automation_framework",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:registration": "npx playwright test tests/user-registration.spec.ts",
+    "test:products": "npx playwright test tests/product-search.spec.ts",
+    "test:cart": "npx playwright test tests/shopping-cart.spec.ts",
+    "test:scenario1": "npx playwright test tests/user-registration-chrome.spec.ts --project=chromium",
+    "test:scenario2": "npx playwright test tests/product-search-single.spec.ts --project=chromium",
+    "test:scenario3": "npx playwright test tests/shopping-cart-simple.spec.ts --project=chromium",
+    "test:all-scenarios": "npx playwright test tests/all-scenarios-summary.spec.ts --project=chromium",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.8.0",
+    "typescript": "^5.6.0"
+  }
+}
